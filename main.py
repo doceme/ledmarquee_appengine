@@ -2,7 +2,7 @@ from google.appengine.ext import webapp
 from google.appengine.ext.webapp.util import run_wsgi_app
 from google.appengine.ext import db
 
-hash = "cd869b22ae111dd50e3e51c526d3ed3b"
+hash = "<insert_secret_here>"
 
 def output(self, string):
     self.response.out.write(string)
